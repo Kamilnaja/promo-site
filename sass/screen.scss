@@ -315,6 +315,9 @@ h1, h2, h3 {
   display: block;
   padding-left: 55px;
   padding-right: 55px;
+  @media(max-width: 772px) {
+    padding-top: 5px;
+  }
   color: $blueMotive;
   font-weight: bold;
   font-size: 1.6rem;
