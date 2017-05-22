@@ -309,11 +309,10 @@ h1, h2, h3 {
 }
 
 .button {
-  display: flex !important;
-  align-items: center;
   border: 3px solid $blueMotive;
   border-radius: 20px;
   background-color: transparent;
+  display: block;
   padding-left: 55px;
   padding-right: 55px;
   color: $blueMotive;
@@ -321,7 +320,8 @@ h1, h2, h3 {
   font-size: 1.6rem;
   text-transform: uppercase;
   height: 46px;
-  line-height: 20px;
+  line-height: 23px;
+  vertical-align: baseline;
 }
 
 .button--centered {
