@@ -310,8 +310,7 @@ h1, h2, h3 {
 
 .button {
   box-sizing: border-box;
-  border: 2px solid $blueMotive;
-  border-radius: 20px;
+  border: none;
   background-color: transparent;
   display: block;
   padding-left: 55px;
@@ -323,8 +322,6 @@ h1, h2, h3 {
   font-size: 1.6rem;
   text-transform: uppercase;
 
-  line-height: 23px;
-  vertical-align: middle;
 }
 
 .button--centered {
