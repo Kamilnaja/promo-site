@@ -309,22 +309,22 @@ h1, h2, h3 {
 }
 
 .button {
-  border: 3px solid $blueMotive;
+  box-sizing: border-box;
+  border: 2px solid $blueMotive;
   border-radius: 20px;
   background-color: transparent;
   display: block;
   padding-left: 55px;
   padding-right: 55px;
-  @media(max-width: 772px) {
-    padding-top: 5px;
-  }
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: $blueMotive;
   font-weight: bold;
   font-size: 1.6rem;
   text-transform: uppercase;
-  height: 46px;
+
   line-height: 23px;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 
 .button--centered {
