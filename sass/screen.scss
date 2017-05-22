@@ -75,15 +75,12 @@ h1, h2, h3 {
 .navbar-menu {
   &__list {
     list-style-type: none;
-    @media(min-width: 1757px) {
-      margin-left: 598px;
-    }
   }
   &__list-item {
     display: inline-block;
     &__anchor {
       color: $secondaryText;
-      font-size: 2.2rem;
+      font-size: 1.6rem;
       &:hover {
         text-decoration: none;
       }
@@ -117,7 +114,7 @@ h1, h2, h3 {
     margin-left: 0;
     color: black !important;
     line-height: 25px !important;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
 
     &:hover, &:active, &:focus {
       background-color: lighten(#fee800, 20%) !important;
@@ -131,7 +128,7 @@ h1, h2, h3 {
     display: block;
     line-height: 28px !important;
     color: black !important;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     @media(min-width: 768px) {
       line-height: 25px !important;
     }
@@ -162,7 +159,8 @@ h1, h2, h3 {
 
 .intro {
   background-size: cover;
-  background: url('../img/background.jpg') no-repeat -75px -187px;
+  background: url('../img/water-2208931_1920.jpg');
+  background-attachment: fixed;
   padding-top: 130px;
   padding-bottom: 90px;
   @media(max-width: 768px) {
@@ -259,8 +257,9 @@ h1, h2, h3 {
 }
 
 .offer__container {
-  background: url('../img/woman.jpg') no-repeat 0 0;
+  background: url('../img/mushrooms.jpg') no-repeat 0 0;
   background-size: cover;
+  background-attachment: fixed;
   padding-top: 100px;
   @media(min-width: 1200px) {
     padding-top: 254px;
@@ -314,10 +313,14 @@ h1, h2, h3 {
   border-radius: 25px;
   background-color: transparent;
   display: block;
-  padding: 6px 55px;
+  padding-left: 55px;
+  padding-right: 55px;
   color: $blueMotive;
   font-weight: bold;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  height: 46px;
+  line-height: 23px;
 }
 
 .button--centered {
